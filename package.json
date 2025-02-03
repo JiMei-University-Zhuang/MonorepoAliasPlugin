@@ -1,0 +1,22 @@
+{
+  "name": "webpack-monorepo-alias-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin for handling monorepo package aliases",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "node scripts/build.js"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "monorepo",
+    "alias"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/webpack": "^5.28.5",
+    "webpack": "^5.97.1"
+  }
+}
